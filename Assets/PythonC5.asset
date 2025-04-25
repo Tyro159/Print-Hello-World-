@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd92f0e3d3c9aa64ba33b3b7bec4f4ac, type: 3}
+  m_Name: PythonC5
+  m_EditorClassIdentifier: 
+  achievementName: Logic Thinker
+  description: Complete Python challenge 5
+  icon: {fileID: 21300000, guid: 77c6c4fba4d40244bb1b107cc93c3a5a, type: 3}
+  isUnlocked: 0
