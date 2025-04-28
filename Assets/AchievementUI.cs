@@ -9,6 +9,7 @@ public class AchievementUI : MonoBehaviour
     public GameObject achievementPopup;
     public TextMeshProUGUI achievementText;
     public Image achievementIcon;
+    public AudioSource mainTheme;
 
     void Awake()
     {
@@ -17,6 +18,7 @@ public class AchievementUI : MonoBehaviour
             Instance = this;
             DontDestroyOnLoad(gameObject);
             DontDestroyOnLoad(achievementPopup);
+            DontDestroyOnLoad(mainTheme);
             Debug.Log("AchievementUI Instance set!");
         }
         else
@@ -24,6 +26,7 @@ public class AchievementUI : MonoBehaviour
             Debug.LogError("Duplicate AchievementUI detected!");
             Destroy(gameObject);
             Destroy(achievementPopup);
+            Destroy(mainTheme);
         }
 
         achievementPopup.SetActive(false);
