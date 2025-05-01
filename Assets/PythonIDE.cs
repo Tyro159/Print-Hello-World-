@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 using Python.Runtime;  // Import Python.NET namespace
 using System;
 using System.Collections.Generic;
+using System.IO;
 
 public class PythonIDE : MonoBehaviour
 {
@@ -41,6 +42,19 @@ public class PythonIDE : MonoBehaviour
 
     void Start()
     {
+
+        // Initialize Python.NET
+        string pythonDllPath;
+
+        #if UNITY_EDITOR
+            pythonDllPath = Path.Combine(Application.dataPath, "PythonEmbed", "python39.dll");
+        #else
+            pythonDllPath = Path.Combine(Application.dataPath, "..", "PythonEmbed", "python39.dll");
+        #endif
+
+        Python.Runtime.Runtime.PythonDLL = pythonDllPath;
+        PythonEngine.Initialize();
+
         using (Py.GIL())
         {
             dynamic sys = Py.Import("sys");
@@ -50,8 +64,6 @@ public class PythonIDE : MonoBehaviour
             Debug.Log("Python path: " + sys.path);
         }
 
-        // Initialize Python.NET
-        PythonEngine.Initialize();
         codeInputField = GameObject.Find("CodeInputField").GetComponent<TMP_InputField>();
         outputText = GameObject.Find("OutputText").GetComponent<TMP_InputField>();
         completionMark = GameObject.Find("completionMark").GetComponent<TMP_Text>();

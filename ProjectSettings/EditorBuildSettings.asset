@@ -6,6 +6,69 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Main Menu.unity
+    guid: ee41dc3a4e80a914496d2c80cb0ad2ab
+  - enabled: 1
+    path: Assets/Scenes/Achievements Menu.unity
+    guid: 32004618ed3e8e14aacaa9f9d5f64ae0
+  - enabled: 1
+    path: Assets/Scenes/Challenge1.unity
+    guid: 7cacb8e70e79d43409474c7d37689aaf
+  - enabled: 1
+    path: Assets/Scenes/Challenge2.unity
+    guid: c8e0240fb6c3bda488677887ae1d4110
+  - enabled: 1
+    path: Assets/Scenes/Challenge3.unity
+    guid: 9d25762833511aa4baab110c95952faa
+  - enabled: 1
+    path: Assets/Scenes/Challenge4.unity
+    guid: 007b8e3a17b45394c9f47256b2c4758c
+  - enabled: 1
+    path: Assets/Scenes/Challenge5.unity
+    guid: aab4d1c91b6557141ae99f5b0e8f63d4
+  - enabled: 1
+    path: Assets/Scenes/Challenge6.unity
+    guid: fdc6f237bf822e84183065e8d5fad334
+  - enabled: 1
+    path: Assets/Scenes/Challenge7.unity
+    guid: 4b9c3209415ed9945b6c9361f70f9987
+  - enabled: 1
+    path: Assets/Scenes/Challenge8.unity
+    guid: b76c4582505ca8a40b7a9b0d8bef7bf0
+  - enabled: 1
+    path: Assets/Scenes/Challenge9.unity
+    guid: 2aa9d3fba5a13284ea2c474b24bf168c
+  - enabled: 1
+    path: Assets/Scenes/Challenge10.unity
+    guid: cb25739309568a84189842cb74a1dc55
+  - enabled: 1
+    path: Assets/Scenes/Challenge11.unity
+    guid: a27053928ee150b428bf341c5ce4254d
+  - enabled: 1
+    path: Assets/Scenes/Challenge12.unity
+    guid: fc6d91b2f7a1eb1418f8006cc2bcd05d
+  - enabled: 1
+    path: Assets/Scenes/Challenge13.unity
+    guid: 4a1159e33be1c2b47b0836c84bbc90ce
+  - enabled: 1
+    path: Assets/Scenes/Challenge14.unity
+    guid: 2874941dd0f67d548a34be93e1a9ff4f
+  - enabled: 1
+    path: Assets/Scenes/Challenge15.unity
+    guid: 5c89d7a7ffea6044886c3062d399bfe5
+  - enabled: 1
+    path: Assets/Scenes/Challenge16.unity
+    guid: d98f69677508509459cb96e5b39218b9
+  - enabled: 1
+    path: Assets/Scenes/Challenge17.unity
+    guid: 4451825b542bb974f91e025d2c01440c
+  - enabled: 1
+    path: Assets/Scenes/Challenge18.unity
+    guid: d2fac3a8fa5fea54480e4dda98c96c27
+  - enabled: 1
+    path: Assets/Scenes/Challenge19.unity
+    guid: aa8e59571322efe46b80298ccb086d1d
+  - enabled: 1
+    path: Assets/Scenes/Challenge20.unity
+    guid: b4ff3239501dc754a8f4ef56a9f1c235
   m_configObjects: {}

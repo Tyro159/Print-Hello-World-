@@ -448,7 +448,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Python.Runtime">
-      <HintPath>Assets\Plugins\Python.Runtime.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.scripting.python@6.0.1\Editor\Lib\x64\Python.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
