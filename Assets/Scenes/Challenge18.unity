@@ -1046,8 +1046,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -409.2}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -0}
+  m_SizeDelta: {x: 0, y: 318.317}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &232809672
 MonoBehaviour:
@@ -1072,8 +1072,8 @@ MonoBehaviour:
   m_text: "# Expert Challenge 3\n\n# First Dictionary\ndict1 = {'a': 1, 'b': 2, 'c':
     3}\n# Second Dictionary\ndict2 = {'d': 4, 'e': 5, 'f': 6}\n\n# Merge the dictionaries
     using \"|\"\nmerged_dict = (insert method to merge dictionaries)\n\n\nprint(\"Dictionary
-    1:\", insert first dictionary)\nprint(\"Dictionary 2:\", insert second dictionary)\nprint(\"Dictionary
-    3:\", insert merged dictionary)\n\u200B"
+    1:\", insert first dictionary)\nprint(\"Dictionary 2:\", insert second dictionary)\nprint(\"Merged
+    Dictionary:\", insert merged dictionary)\n\u200B"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2700,8 +2700,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1986157926}
   m_HandleRect: {fileID: 1986157925}
   m_Direction: 0
-  m_Value: 1.0000066
-  m_Size: 0.98766667
+  m_Value: 1.0000231
+  m_Size: 0.9876646
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3221,8 +3221,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 216709981}
   m_HandleRect: {fileID: 216709979}
   m_Direction: 2
-  m_Value: 1.0000033
-  m_Size: 0.97153854
+  m_Value: 0
+  m_Size: 0.9715385
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3528,7 +3528,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 13, y: -0.0005950928}
+  m_AnchoredPosition: {x: 13, y: -356.64}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1035559431
@@ -4317,7 +4317,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -37.000233, y: 37.000015}
+  m_AnchoredPosition: {x: -37.000957, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1204244928
@@ -4530,7 +4530,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -37.000107, y: 0}
+  m_AnchoredPosition: {x: -37.000732, y: 37}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1268849487
@@ -4679,7 +4679,8 @@ MonoBehaviour:
     print("Dictionary
     2:", insert second dictionary)
 
-    print("Dictionary 3:", insert merged dictionary)
+    print("Merged Dictionary:", insert merged
+    dictionary)
 
 '
   m_CaretBlinkRate: 0.85
@@ -5022,8 +5023,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 186339778}
   m_HandleRect: {fileID: 186339777}
   m_Direction: 0
-  m_Value: 1.0000033
-  m_Size: 0.9876666
+  m_Value: 1.0000231
+  m_Size: 0.98766464
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -6786,8 +6787,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1272929586}
   m_HandleRect: {fileID: 1272929584}
   m_Direction: 2
-  m_Value: 0.0000016495989
-  m_Size: 0.926
+  m_Value: 1
+  m_Size: 0.92600006
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

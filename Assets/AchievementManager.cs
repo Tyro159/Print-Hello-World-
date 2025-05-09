@@ -42,7 +42,7 @@ public class AchievementManager : MonoBehaviour
 
             // Show popup
             AchievementUI.Instance.ShowAchievement(achievement);
-
+            
             // Save to JSON
             AchievementSaveLoad.Instance.SaveAchievements();
         }

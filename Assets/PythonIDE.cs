@@ -27,14 +27,19 @@ public class PythonIDE : MonoBehaviour
         { "Challenge9", $"Today's date is: {DateTime.Today:MM-dd-yyyy}\nNext month: {DateTime.Today.AddMonths(1):MM-dd-yyyy}\n" },
         { "Challenge10", "Found the correct number!\n" },
         { "Challenge11", "    *\n   **\n  ***\n ****\n*****\n" },
-        { "Challenge12", "1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\nBuzz\n11\nFizz\n13\n14\nFizzBuzz\n16\n17\nFizz\n19\nBuzz" },
+        {"Challenge12",
+            "1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\nBuzz\n11\nFizz\n13\n14\nFizzBuzz\n" +
+            "16\n17\nFizz\n19\nBuzz\nFizz\n22\n23\nFizz\nBuzz\n26\nFizz\n28\n29\nFizzBuzz\n" +
+            "31\n32\nFizz\n34\nBuzz\nFizz\n37\n38\nFizz\nBuzz\n41\nFizz\n43\n44\nFizzBuzz\n" +
+            "46\n47\nFizz\n49\nBuzz\n"
+        },
         { "Challenge13", "2\n3\n5\n7\n11\n13\n17\n19\n23\n29\n31\n37\n41\n43\n47" },
         { "Challenge14", "Original list: [1, 2, 3, 4, 5]\nReversed list: [5, 4, 3, 2, 1]\n" },
         { "Challenge15", "Factorial of 5 is 120\n" },
         { "Challenge16", "Original list: [7, 2, 9, 1, 5]\nSorted list: [1, 2, 5, 7, 9]\n" },
-        { "Challenge17", "0 1 1 2 3 5 8 13 21 34\n" },
-        { "Challenge18", "Dictionary 1: {'a': 1, 'b': 2, 'c': 3}\nDictionary 2: {'d': 4, 'e': 5, 'f': 6}\nMerged Dictionary: {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5, 'f': 6}\n" },
-        { "Challenge19", "Original Matrix:\n1 2 3\n4 5 6\n7 8 9\n\nTransposed Matrix:\n1 4 7\n2 5 8\n3 6 9\n" },
+        { "Challenge17", "0 1 1 2 3 5 8 13 21 34" },
+        { "Challenge18", "Dictionary 1: {'a': 1, 'b': 2, 'c': 3}\nDictionary 2: {'d': 4, 'e': 5, 'f': 6}\nMerged Dictionary: {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5, 'f': 6}" },
+        { "Challenge19", "Original Matrix:\n1 2 3\n4 5 6\n7 8 9\nTransposed Matrix:\n1 4 7\n2 5 8\n3 6 9\n" },
         { "Challenge20", "Original Message: Fdhvdu Flskhu\nDecrypted Message: Caesar Cipher"}
     };
 

@@ -1240,7 +1240,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -9.82019}
+  m_AnchoredPosition: {x: 0, y: -9.820801}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &232809672
@@ -1264,10 +1264,10 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "# Advanced Challenge 2\r\nfor num in range(insert range from 1 to 51):\r\n\n   
-    # Check if num MOD 3 and 5 equals 0\n    if num (insert operator) 3 == 0 & num(insert
-    operator5 == 0:\r\n        print(\"FizzBuzz\")\r\n    # Check if num MOD 3 equals
-    0\n    elif num (insert operator 3 == 0:\r\n        print(\"Fizz\")\r\n    #
-    Check if num MOD 5 equals 0\n    elif num (insert operator 5 == 0:\r\n       
+    # Check if num MOD 3 and 5 equals 0\n    if num (insert operator) 3 == 0 and
+    num(insert operator) 5 == 0:\r\n        print(\"FizzBuzz\")\r\n    # Check if
+    num MOD 3 equals 0\n    elif num (insert operator) 3 == 0:\r\n        print(\"Fizz\")\r\n   
+    # Check if num MOD 5 equals 0\n    elif num (insert operator) 5 == 0:\r\n       
     print(\"Buzz\")\r\n    else:\r\n        print(insert variable)\r\n\u200B"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2811,8 +2811,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 216709981}
   m_HandleRect: {fileID: 216709979}
   m_Direction: 2
-  m_Value: 0.023998443
-  m_Size: 0.97153854
+  m_Value: 0.024
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3734,7 +3734,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 36.26001}
+  m_AnchoredPosition: {x: 0, y: 36.259987}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1204244928
@@ -3947,7 +3947,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 36.11201}
+  m_AnchoredPosition: {x: 0, y: 36.112133}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1268849487
@@ -4071,10 +4071,10 @@ MonoBehaviour:
   m_CustomCaretColor: 1
   m_SelectionColor: {r: 0.91372555, g: 0.91372555, b: 0.91372555, a: 0.7529412}
   m_Text: "# Advanced Challenge 2\r\nfor num in range(insert range from 1 to 51):\r\n\n   
-    # Check if num MOD 3 and 5 equals 0\n    if num (insert operator) 3 == 0 & num(insert
-    operator5 == 0:\r\n        print(\"FizzBuzz\")\r\n    # Check if num MOD 3 equals
-    0\n    elif num (insert operator 3 == 0:\r\n        print(\"Fizz\")\r\n    #
-    Check if num MOD 5 equals 0\n    elif num (insert operator 5 == 0:\r\n       
+    # Check if num MOD 3 and 5 equals 0\n    if num (insert operator) 3 == 0 and
+    num(insert operator) 5 == 0:\r\n        print(\"FizzBuzz\")\r\n    # Check if
+    num MOD 3 equals 0\n    elif num (insert operator) 3 == 0:\r\n        print(\"Fizz\")\r\n   
+    # Check if num MOD 5 equals 0\n    elif num (insert operator) 5 == 0:\r\n       
     print(\"Buzz\")\r\n    else:\r\n        print(insert variable)\r\n"
   m_CaretBlinkRate: 0.85
   m_CaretWidth: 3
