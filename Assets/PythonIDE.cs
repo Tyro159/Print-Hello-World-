@@ -202,6 +202,16 @@ finally:
             "Challenge8" => "Date Detective",
             "Challenge9" => "Future Predictor",
             "Challenge10" => "Randomness at its finest",
+            "Challenge11" => "Pyramid Builder",
+            "Challenge12" => "A Common Demoninator",
+            "Challenge13" => "Prime Finder",
+            "Challenge14" => "Reversal",
+            "Challenge15" => "Infinite Recursion",
+            "Challenge16" => "Everything can be Sorted",
+            "Challenge17" => "The Fibonacci Sequence",
+            "Challenge18" => "Dictionary Detective",
+            "Challenge19" => "Into the Matrix",
+            "Challenge20" => "Decipher like Caesar",
             _ => null
         };
 

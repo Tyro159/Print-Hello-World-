@@ -36,20 +36,15 @@ public class AchievementManager : MonoBehaviour
         Debug.Log($"Searching for achievement: {name}");
         Achievement achievement = achievements.Find(a => a.achievementName == name);
 
-        if (achievement != null)
+        if (achievement != null && !achievement.isUnlocked)
         {
-            Debug.Log($"Found achievement: {achievement.achievementName}");
+            achievement.isUnlocked = true;
 
-            if (!achievement.isUnlocked)
-            {
-                achievement.isUnlocked = true;
-                Debug.Log($"Achievement Unlocked: {achievement.achievementName}");
-                AchievementUI.Instance.ShowAchievement(achievement);
-            }
-            else
-            {
-                Debug.Log($"Achievement {achievement.achievementName} is already unlocked.");
-            }
+            // Show popup
+            AchievementUI.Instance.ShowAchievement(achievement);
+
+            // Save to JSON
+            AchievementSaveLoad.Instance.SaveAchievements();
         }
         else
         {
