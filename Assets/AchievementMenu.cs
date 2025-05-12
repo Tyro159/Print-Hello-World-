@@ -3,10 +3,10 @@ using UnityEngine;
 
 public class AchievementMenu : MonoBehaviour
 {
-    public GameObject achievementPrefab; // Prefab for each achievement UI entry
-    public Transform achievementListContainer; // Parent container for achievements
+    public GameObject achievementPrefab;
+    public Transform achievementListContainer;
 
-    private void OnEnable() // Runs every time the menu is opened
+    private void OnEnable() // Run every time menu is loaded
     {
         RefreshAchievements();
     }

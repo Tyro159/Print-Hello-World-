@@ -1,18 +1,58 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\tyro1\\PycharmProjects\\Print-Hello-World-\\",
+  "WorkspaceRootPath": "C:\\Users\\tyro1\\Print-Hello-World-\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tyro1\\PycharmProjects\\Print-Hello-World-\\Assets\\PythonIDE.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tyro1\\Print-Hello-World-\\Assets\\ToggleVisibility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\ToggleVisibility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tyro1\\Print-Hello-World-\\Assets\\SyntaxHighlighter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\SyntaxHighlighter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tyro1\\Print-Hello-World-\\Assets\\ScneController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\ScneController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tyro1\\Print-Hello-World-\\Assets\\PythonIDE.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\PythonIDE.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tyro1\\PycharmProjects\\Print-Hello-World-\\Assets\\AchievementUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tyro1\\Print-Hello-World-\\Assets\\ExitGameButton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\ExitGameButton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tyro1\\Print-Hello-World-\\Assets\\ChallengeButtonUnlocker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\ChallengeButtonUnlocker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tyro1\\Print-Hello-World-\\Assets\\AchievementUIEntry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\AchievementUIEntry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tyro1\\Print-Hello-World-\\Assets\\AchievementUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\AchievementUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tyro1\\PycharmProjects\\Print-Hello-World-\\Assets\\AchievementUIEntry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\AchievementUIEntry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tyro1\\Print-Hello-World-\\Assets\\AchievementSaveLoad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\AchievementSaveLoad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tyro1\\Print-Hello-World-\\Assets\\AchievementProgress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\AchievementProgress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tyro1\\Print-Hello-World-\\Assets\\AchievementMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\AchievementMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tyro1\\Print-Hello-World-\\Assets\\AchievementManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\AchievementManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tyro1\\Print-Hello-World-\\Assets\\Achievement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Achievement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,39 +67,171 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PythonIDE.cs",
-              "DocumentMoniker": "C:\\Users\\tyro1\\PycharmProjects\\Print-Hello-World-\\Assets\\PythonIDE.cs",
-              "RelativeDocumentMoniker": "Assets\\PythonIDE.cs",
-              "ToolTip": "C:\\Users\\tyro1\\PycharmProjects\\Print-Hello-World-\\Assets\\PythonIDE.cs",
-              "RelativeToolTip": "Assets\\PythonIDE.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAD4vxgAAAAtAAAAAAAAAA==",
+              "Title": "ToggleVisibility.cs",
+              "DocumentMoniker": "C:\\Users\\tyro1\\Print-Hello-World-\\Assets\\ToggleVisibility.cs",
+              "RelativeDocumentMoniker": "Assets\\ToggleVisibility.cs",
+              "ToolTip": "C:\\Users\\tyro1\\Print-Hello-World-\\Assets\\ToggleVisibility.cs",
+              "RelativeToolTip": "Assets\\ToggleVisibility.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T21:42:06.397Z",
+              "WhenOpened": "2025-05-12T05:58:09.611Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AchievementUI.cs",
-              "DocumentMoniker": "C:\\Users\\tyro1\\PycharmProjects\\Print-Hello-World-\\Assets\\AchievementUI.cs",
-              "RelativeDocumentMoniker": "Assets\\AchievementUI.cs",
-              "ToolTip": "C:\\Users\\tyro1\\PycharmProjects\\Print-Hello-World-\\Assets\\AchievementUI.cs",
-              "RelativeToolTip": "Assets\\AchievementUI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAfAAAAAAAAAA==",
+              "Title": "SyntaxHighlighter.cs",
+              "DocumentMoniker": "C:\\Users\\tyro1\\Print-Hello-World-\\Assets\\SyntaxHighlighter.cs",
+              "RelativeDocumentMoniker": "Assets\\SyntaxHighlighter.cs",
+              "ToolTip": "C:\\Users\\tyro1\\Print-Hello-World-\\Assets\\SyntaxHighlighter.cs",
+              "RelativeToolTip": "Assets\\SyntaxHighlighter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T15:30:03.971Z"
+              "WhenOpened": "2025-05-12T05:56:52.706Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AchievementUIEntry.cs",
-              "DocumentMoniker": "C:\\Users\\tyro1\\PycharmProjects\\Print-Hello-World-\\Assets\\AchievementUIEntry.cs",
-              "RelativeDocumentMoniker": "Assets\\AchievementUIEntry.cs",
-              "ToolTip": "C:\\Users\\tyro1\\PycharmProjects\\Print-Hello-World-\\Assets\\AchievementUIEntry.cs",
-              "RelativeToolTip": "Assets\\AchievementUIEntry.cs",
+              "Title": "ScneController.cs",
+              "DocumentMoniker": "C:\\Users\\tyro1\\Print-Hello-World-\\Assets\\ScneController.cs",
+              "RelativeDocumentMoniker": "Assets\\ScneController.cs",
+              "ToolTip": "C:\\Users\\tyro1\\Print-Hello-World-\\Assets\\ScneController.cs",
+              "RelativeToolTip": "Assets\\ScneController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T15:29:55.95Z"
+              "WhenOpened": "2025-05-12T05:56:48.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PythonIDE.cs",
+              "DocumentMoniker": "C:\\Users\\tyro1\\Print-Hello-World-\\Assets\\PythonIDE.cs",
+              "RelativeDocumentMoniker": "Assets\\PythonIDE.cs",
+              "ToolTip": "C:\\Users\\tyro1\\Print-Hello-World-\\Assets\\PythonIDE.cs",
+              "RelativeToolTip": "Assets\\PythonIDE.cs",
+              "ViewState": "AgIAALEAAAAAAAAAAAAAALcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T05:53:26.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ExitGameButton.cs",
+              "DocumentMoniker": "C:\\Users\\tyro1\\Print-Hello-World-\\Assets\\ExitGameButton.cs",
+              "RelativeDocumentMoniker": "Assets\\ExitGameButton.cs",
+              "ToolTip": "C:\\Users\\tyro1\\Print-Hello-World-\\Assets\\ExitGameButton.cs",
+              "RelativeToolTip": "Assets\\ExitGameButton.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T05:53:17.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ChallengeButtonUnlocker.cs",
+              "DocumentMoniker": "C:\\Users\\tyro1\\Print-Hello-World-\\Assets\\ChallengeButtonUnlocker.cs",
+              "RelativeDocumentMoniker": "Assets\\ChallengeButtonUnlocker.cs",
+              "ToolTip": "C:\\Users\\tyro1\\Print-Hello-World-\\Assets\\ChallengeButtonUnlocker.cs",
+              "RelativeToolTip": "Assets\\ChallengeButtonUnlocker.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T05:53:08.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AchievementUIEntry.cs",
+              "DocumentMoniker": "C:\\Users\\tyro1\\Print-Hello-World-\\Assets\\AchievementUIEntry.cs",
+              "RelativeDocumentMoniker": "Assets\\AchievementUIEntry.cs",
+              "ToolTip": "C:\\Users\\tyro1\\Print-Hello-World-\\Assets\\AchievementUIEntry.cs",
+              "RelativeToolTip": "Assets\\AchievementUIEntry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T05:38:30.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AchievementUI.cs",
+              "DocumentMoniker": "C:\\Users\\tyro1\\Print-Hello-World-\\Assets\\AchievementUI.cs",
+              "RelativeDocumentMoniker": "Assets\\AchievementUI.cs",
+              "ToolTip": "C:\\Users\\tyro1\\Print-Hello-World-\\Assets\\AchievementUI.cs",
+              "RelativeToolTip": "Assets\\AchievementUI.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T05:38:25.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AchievementSaveLoad.cs",
+              "DocumentMoniker": "C:\\Users\\tyro1\\Print-Hello-World-\\Assets\\AchievementSaveLoad.cs",
+              "RelativeDocumentMoniker": "Assets\\AchievementSaveLoad.cs",
+              "ToolTip": "C:\\Users\\tyro1\\Print-Hello-World-\\Assets\\AchievementSaveLoad.cs",
+              "RelativeToolTip": "Assets\\AchievementSaveLoad.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T05:38:20.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AchievementProgress.cs",
+              "DocumentMoniker": "C:\\Users\\tyro1\\Print-Hello-World-\\Assets\\AchievementProgress.cs",
+              "RelativeDocumentMoniker": "Assets\\AchievementProgress.cs",
+              "ToolTip": "C:\\Users\\tyro1\\Print-Hello-World-\\Assets\\AchievementProgress.cs",
+              "RelativeToolTip": "Assets\\AchievementProgress.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T05:38:17.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AchievementMenu.cs",
+              "DocumentMoniker": "C:\\Users\\tyro1\\Print-Hello-World-\\Assets\\AchievementMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\AchievementMenu.cs",
+              "ToolTip": "C:\\Users\\tyro1\\Print-Hello-World-\\Assets\\AchievementMenu.cs",
+              "RelativeToolTip": "Assets\\AchievementMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T05:23:18.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AchievementManager.cs",
+              "DocumentMoniker": "C:\\Users\\tyro1\\Print-Hello-World-\\Assets\\AchievementManager.cs",
+              "RelativeDocumentMoniker": "Assets\\AchievementManager.cs",
+              "ToolTip": "C:\\Users\\tyro1\\Print-Hello-World-\\Assets\\AchievementManager.cs",
+              "RelativeToolTip": "Assets\\AchievementManager.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T05:22:42.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Achievement.cs",
+              "DocumentMoniker": "C:\\Users\\tyro1\\Print-Hello-World-\\Assets\\Achievement.cs",
+              "RelativeDocumentMoniker": "Assets\\Achievement.cs",
+              "ToolTip": "C:\\Users\\tyro1\\Print-Hello-World-\\Assets\\Achievement.cs",
+              "RelativeToolTip": "Assets\\Achievement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T05:22:11.182Z",
+              "EditorCaption": ""
             }
           ]
         }

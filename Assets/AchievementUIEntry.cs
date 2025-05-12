@@ -26,7 +26,7 @@ public class AchievementUIEntry : MonoBehaviour
         else
         {
             icon.sprite = achievement.icon;
-            icon.color = lockedColor; // Dim the icon
+            icon.color = lockedColor; // Dim icon
             titleText.alpha = 0.5f;
             descriptionText.alpha = 0.5f;
         }

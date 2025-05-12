@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
-using Python.Runtime;  // Import Python.NET namespace
+using Python.Runtime;  // Import Python.NET
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -13,7 +13,7 @@ public class PythonIDE : MonoBehaviour
     public TMP_InputField outputText;
     public TMP_Text completionMark;
 
-    // Dictionary to store static expected outputs for each challenge
+    // Dictionary to store expected outputs for each challenge
     private Dictionary<string, string> challengeExpectedOutputs = new Dictionary<string, string>
     {
         { "Challenge1", "Hello, World!\n" },
@@ -86,7 +86,7 @@ public class PythonIDE : MonoBehaviour
     {
         // Set the current challenge based on the active scene name
         SetCurrentChallenge(SceneManager.GetActiveScene().name);
-        Debug.Log("Current Challenge: " + currentChallenge);  // Add debug log
+        Debug.Log("Current Challenge: " + currentChallenge);
 
         if (codeInputField == null || outputText == null || completionMark == null)
         {
@@ -116,7 +116,7 @@ finally:
     sys.stdout = old_stdout
 ";
 
-                // Execute the script and capture output
+                // Execute script and capture output
                 dynamic scope = Py.CreateScope();
                 scope.Exec(fullScript);
 
@@ -127,25 +127,25 @@ finally:
 
                 Debug.Log("Python result: " + outputStr);
 
-                // Get expected output for the current challenge
+                // Get expected output for current challenge
                 string expectedOutput = GetExpectedOutputForCurrentChallenge();
 
-                // Compare output with expected output and display completion mark if they match
+                // Compare output with expected output
                 if (outputStr == expectedOutput)
                 {
-                    completionMark.gameObject.SetActive(true);  // Show completion mark
-                    UnlockChallengeAchievement(); // Unlock the associated achievement with the challenge 
+                    completionMark.gameObject.SetActive(true);
+                    UnlockChallengeAchievement(); // Unlock associated achievement with challenge 
                 }
 
                 else if (outputStr.Contains(expectedOutput))
                    {
-                    completionMark.gameObject.SetActive(true);  // Show completion mark
-                    UnlockChallengeAchievement(); // Unlock the associated achievement with the challenge 
+                    completionMark.gameObject.SetActive(true);
+                    UnlockChallengeAchievement(); // Unlock associated achievement with challenge 
                 }
 
                 else
                 {
-                    completionMark.gameObject.SetActive(false);  // Hide completion mark
+                    completionMark.gameObject.SetActive(false);
                 }
             }
             catch (PythonException e)
@@ -153,35 +153,35 @@ finally:
                 // Display Python errors in Output Text field
                 outputText.text = $"Error: {e.Message}";
                 Debug.LogError("Python error: " + e.Message);
-                completionMark.gameObject.SetActive(false);  // Hide completion mark on error
+                completionMark.gameObject.SetActive(false);
             }
         }
     }
 
     void OnApplicationQuit()
     {
-        // Shutdown Python engine when the application closes
+        // Shutdown Python engine when app closes
         PythonEngine.Shutdown();
     }
 
-    // Function to set the current challenge dynamically based on the scene name
+    // Set current challenge based on scene name
     private void SetCurrentChallenge(string sceneName)
     {
-        Debug.Log("Active Scene Name: " + sceneName);  // Add debug log
+        Debug.Log("Active Scene Name: " + sceneName);
 
         if (challengeExpectedOutputs.ContainsKey(sceneName) || sceneName == "Challenge4" || sceneName == "Challenge5")
         {
             currentChallenge = sceneName;
-            Debug.Log("Challenge Set: " + currentChallenge);  // Add debug log
+            Debug.Log("Challenge Set: " + currentChallenge);
         }
         else
         {
             Debug.LogError("Challenge not found for scene: " + sceneName);
-            currentChallenge = null;  // Ensure currentChallenge is not set to a non-existent key
+            currentChallenge = null;
         }
     }
 
-    // Function to get the expected output for the current challenge
+    // Get expected output for current challenge
     private string GetExpectedOutputForCurrentChallenge()
     {
         if (challengeExpectedOutputs.TryGetValue(currentChallenge, out string expectedOutput))

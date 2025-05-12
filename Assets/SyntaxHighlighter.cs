@@ -2,6 +2,7 @@ using UnityEngine;
 using TMPro;
 using System.Text.RegularExpressions;
 
+// No current function for this class
 public class SyntaxHighlighter : MonoBehaviour
 {
     public TMP_InputField codeInputField;
@@ -23,7 +24,7 @@ public class SyntaxHighlighter : MonoBehaviour
 
     string ApplySyntaxHighlighting(string text)
     {
-        // Define colors (modify these as you like)
+        // Define colors
         string methodColor = "<color=#569CD6>";  // Blue
         string commentColor = "<color=#919191>"; // Gray
         string stringColor = "<color=#6A9955>";  // Green

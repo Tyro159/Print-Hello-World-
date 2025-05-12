@@ -2,13 +2,13 @@ using UnityEngine;
 
 public class ToggleVisibility : MonoBehaviour
 {
-    public GameObject targetObject; // Assign the object to toggle in Inspector
+    public GameObject targetObject;
 
     public void Toggle()
     {
         if (targetObject != null)
         {
-            targetObject.SetActive(!targetObject.activeSelf); // Switch state
+            targetObject.SetActive(!targetObject.activeSelf);
         }
         else
         {
